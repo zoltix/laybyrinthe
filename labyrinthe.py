@@ -15,7 +15,7 @@ class PrecentePosition:
     """Memoriser la précédente position"""
     def __init__(self, pre_obstacle):
         self.pre_obstacle = pre_obstacle
-
+        
 class Labyrinthe:
     """Ce module contient la classe Jeux et mouvement."""
     clear = lambda: os.system('cls') #clear console peut être creer une classe outil
